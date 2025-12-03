@@ -1,5 +1,41 @@
+# Python cache
 __pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# System & editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets & environment
+.env
+.env.*
+*.pem
+*.key
+
+# Vector store & FAISS
 *.faiss
-*.gguf
+*.index
 vectorstore/
+faiss_index/
+cache/
+
+# Data (documents you feed into RAG)
 data/docs/
+data/embeddings/
+data/chunks/
+
+# Model files
+*.gguf
+*.bin
+*.pth
+models/
+
+# Logs
+*.log
