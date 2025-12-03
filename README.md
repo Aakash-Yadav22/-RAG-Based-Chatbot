@@ -171,7 +171,7 @@ pip install numpy==1.26.4
 pip install faiss-cpu==1.7.4
 ```
 
----
+-----
 
 ## Future Enhancements
 
